@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.text-1 {
+    background-color: blueviolet;
+}
+
+.text-2 {
+    background-color: blueviolet;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.text-3 {
+    background-color: red;
+    margin-top: 10px;
+}
+
+.text-3:hover {
+    background-color: blueviolet;
+}
+
+a:visited {
+    color: red;
+}
+
+input:focus {
+    color: red;
+    font-weight: 900;
+}
+
+/* li:first-child {
+    color: blueviolet;
+}
+
+li:last-child {
+    color: red;
+} */
+/* li:nth-child(2n+1) {
+    background-color: brown;
+} */
+
+/* li:nth-child(2n) {
+    background-color: red;
+} */
+h4::before {
+    content: 'hello ';
+    color: red;
+}
+
+h4::after {
+    content: ' gello';
+    color: blueviolet;
+}
